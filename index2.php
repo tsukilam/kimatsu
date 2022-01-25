@@ -161,7 +161,7 @@ if ($page > 1) {
 if ($page < $maxPage) {
 ?>
 <?php /* ３） 掲示板画面のページネーションを完成させる */ ?>
-<li><a href="index2.php?page=<?php print(1); ?>">次のページへ</a></li>
+<li><a href="index2.php?page=<?php print(contents); ?>">次のページへ</a></li>
 <?php
 } else {
 ?>
